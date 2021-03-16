@@ -1,0 +1,29 @@
+{
+	"name": "node-showdoc",
+	"version": "0.0.1",
+	"description": "A library that simply encapsulates the common APIs of showdoc",
+	"license": "MIT",
+	"repository": "985ch/node-showdoc",
+	"engines": {
+		"node": ">=8"
+	},
+	"files": [
+		"lib",
+		"index.js"
+	],
+	"keywords": [
+		"showdoc"
+	],
+	"homepage": "https://github.com/985ch/node-showdoc#readme",
+	"author": "985ch",
+	"scripts": {
+		"lint": "eslint . --fix"
+	},
+	"dependencies": {
+		"axios": "^0.21.1"
+	},
+	"devDependencies": {
+		"eslint": "^7.22.0",
+		"eslint-config-egg": "^9.0.0"
+	}
+}
