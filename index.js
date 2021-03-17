@@ -50,7 +50,7 @@ class ShowDocApi {
       page_content: content,
     };
     if (typeof (order) === 'number') {
-      reqData.order = order;
+      reqData.s_number = order;
     }
     const data = await this._requestData('/api/item/updateByApi', reqData);
     return pagePrefix + data.page_id;

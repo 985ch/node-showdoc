@@ -1,6 +1,6 @@
 {
 	"name": "node-showdoc",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"description": "A library that simply encapsulates the common APIs of showdoc",
 	"license": "MIT",
 	"repository": "985ch/node-showdoc",
